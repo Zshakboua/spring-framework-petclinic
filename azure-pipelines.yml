@@ -38,8 +38,8 @@ stages:
         mavenPomFile: 'pom.xml'
         publishJUnitResults: true
         testResultsFiles: '**/surefire-reports/TEST-*.xml'
-        javaHomeOption: 'Path'
-        jdkDirectory: 'C:\Program Files\Java\jre7'
+        javaHomeOption: 'JDKVersion'
+        jdkVersionOption: '1.8'
         mavenVersionOption: 'Default'
         mavenAuthenticateFeed: false
         effectivePomSkip: false
